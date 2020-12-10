@@ -1,13 +1,31 @@
-.high_bar {
-  width: 100%;
-  height: 100px;
-  position: sticky;
-  top: 0;
-  z-index: 2;
+.friends-main {
+  padding: 0 var(--horizontal_space);
+}
+.friends_names {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  background-color: #fafafa;
+  margin-bottom: 18px;
 }
 
-.main {
-  position: relative;
-  margin-top: 20px;
-  z-index: 1;
+#friends_names_display {
+  text-align: center;
+  color: #2e363e;
+}
+#friends_names_display i {
+  color: rgba(0, 0, 0, 0.3);
+}
+.friends-main_channel {
+  margin-top: 15px;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.friends-main_channel_button {
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+#channel_num {
+  margin-right: 5px;
 }

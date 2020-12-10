@@ -1,0 +1,7 @@
+.high_bar {
+  width: 100%;
+  height: 105px;
+  box-sizing: border-box;
+  position: fixed;
+  top: 0;
+}

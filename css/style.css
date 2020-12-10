@@ -3,12 +3,15 @@
 @import "reset.css";
 @import "variables.css";
 /*components*/
+@import "components/high_bar.css";
 @import "components/status-bar.css";
 @import "components/navbar.css";
 @import "components/screen-header.css";
+@import "components/user_component.css";
 /*screen*/
 @import "screen/login.css";
 @import "screen/friends.css";
+@import "screen/chats.css";
 
 body {
   font-family: "Open Sans", sans-serif;
