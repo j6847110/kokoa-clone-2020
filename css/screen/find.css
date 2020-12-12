@@ -1,0 +1,84 @@
+#find_header_badge_index {
+  position: relative;
+}
+#find_header_badge {
+  position: absolute;
+  top: -7px;
+}
+/*header*/
+.find_header {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  margin-bottom: 10px;
+}
+.find_header_icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+
+  font-size: 20px;
+}
+.find_header_icons i {
+  font-size: 1.5em;
+}
+/*small title*/
+.friends_small_title {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  color: #858585;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+/*recommend friends*/
+#recommended_friends {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+  align-items: center;
+  color: #858585;
+}
+/*openchat header*/
+#openchat {
+  display: flex;
+  justify-content: space-between;
+}
+#openchat :nth-child(2) {
+  color: #bcbcbc;
+}
+/*openchat detail*/
+.openchat_header {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.openchat_detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.openchat_name {
+  font-weight: 900;
+  font-size: 18px;
+}
+.openchat_tag,
+.openchat_last {
+  color: #858585;
+}
+.openchat_active {
+  font-weight: 600;
+  color: #ffa9de;
+}
+.openchat_img {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+.openchat_profile {
+  vertical-align: middle;
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}

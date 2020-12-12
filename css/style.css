@@ -8,12 +8,21 @@
 @import "components/navbar.css";
 @import "components/screen-header.css";
 @import "components/user_component.css";
+@import "components/badge.css";
 /*screen*/
 @import "screen/login.css";
 @import "screen/friends.css";
 @import "screen/chats.css";
+@import "screen/find.css";
 
 body {
   font-family: "Open Sans", sans-serif;
   height: 1000vh;
+}
+.main_screen {
+  margin-top: var(--header_space);
+  padding: 0 var(--horizontal_space);
+}
+.main_screen_unfixed {
+  padding: 0 var(--horizontal_space);
 }

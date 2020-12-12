@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Find - KokoaTalk</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!--bar_unfixed-->
+    <div class="high_bar_unfixed">
+      <!--statusbar-->
+      <div class="status-bar">
+        <div class="status-bar__column">
+          <span>No Service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <span>50%</span>
+          <i class="fas fa-battery-half"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+      <!--screenheader-->
+      <header class="screen-header">
+        <h1 class="screen-header_title">Find</h1>
+        <div class="screen-header_icons">
+          <i class="fas fa-search fa-lg"></i>
+          <span id="find_header_badge_index">
+            <i class="fas fa-cog fa-lg"></i>
+            <span class="badge_sm" id="find_header_badge"></span>
+          </span>
+        </div>
+      </header>
+    </div>
+
+    <!--main-->
+    <main class="main_screen_unfixed">
+      <!--icons&detail-->
+      <div class="find_header">
+        <div class="find_header_icons">
+          <i class="fas fa-qrcode"></i>
+          <span>QR Code</span>
+        </div>
+        <div class="find_header_icons">
+          <i class="far fa-address-book"></i>
+          <span>Add by Contacts</span>
+        </div>
+        <div class="find_header_icons">
+          <i class="far fa-id-badge"></i>
+          <span>Add by ID</span>
+        </div>
+        <div class="find_header_icons">
+          <i class="far fa-envelope"></i>
+          <span>Invite</span>
+        </div>
+      </div>
+      <!--recommended friends-->
+      <div class="friends_small_title">Recommended Friends</div>
+      <div id="recommended_friends">You have no recommended friends</div>
+      <!--open chat bar-->
+      <div class="friends_small_title" id="openchat">
+        <span>Open Chat</span>
+        <span>Go to Openchat Home <i class="fas fa-angle-right"></i></span>
+      </div>
+      <!--open chat-->
+      <div id="openchat_main">
+        <div class="openchat_header">
+          <div class="openchat_detail">
+            <div class="openchat_name">#BTS</div>
+            <div class="openchat_tag">#BTS#ARMY#FRIENDS</div>
+            <div class="openchat_last">
+              <span
+                ><img
+                  class="openchat_profile"
+                  src="https://library.kissclipart.com/20181208/tfe/kissclipart-chimmy-bt21-clipart-bts-k-pop-line-friends-e71b0c9440aaa474.jpg"
+                />
+                802 members |
+              </span>
+              <span class="openchat_active">Active</span>
+            </div>
+          </div>
+          <div class="openchat_icon">
+            <img
+              class="openchat_img"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlqIt7eGhE_19fF_K_FtJ-ZklsnE8EtQxu4A&usqp=CAU"
+            />
+          </div>
+        </div>
+        <div class="openchat_header">
+          <div class="openchat_detail">
+            <div class="openchat_name">Bts Gang~</div>
+            <div class="openchat_tag">
+              #englishonly #ipurpleyou #jimin #taeta...
+            </div>
+            <div class="openchat_last">
+              <span
+                ><img
+                  class="openchat_profile"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfiZXF5rfsUlnpqjDDM-Mb9VoLSSfihbkdrQ&usqp=CAU"
+                />
+                299 members |
+              </span>
+              <span class="openchat_active">Active</span>
+            </div>
+          </div>
+          <div class="openchat_icon">
+            <img
+              class="openchat_img"
+              src="https://64.media.tumblr.com/625d3829758b2132def9c975fc60814c/384c1c51805d9eec-c0/s1280x1920/232453a2d2353e3ed36cb950bb691d80136e6dbd.jpg"
+            />
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!--navigation-->
+    <nav class="navbar">
+      <ul class="navbar__lists">
+        <li class="navbar__btn">
+          <a class="navbar__link" href="friends.html">
+            <i class="far fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="navbar__btn">
+          <a class="navbar__link" href="chats.html">
+            <span class="navbar__notification badge">1</span>
+            <i class="far fa-comment fa-2x"></i
+          ></a>
+        </li>
+        <li class="navbar__btn">
+          <a class="navbar__link" href="find.html">
+            <i class="fas fa-search fa-2x"></i
+          ></a>
+        </li>
+        <li class="navbar__btn">
+          <a class="navbar__link" href="more.html">
+            <span class="navbar__notification2 badge_sm"></span>
+            <i class="fas fa-ellipsis-h fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

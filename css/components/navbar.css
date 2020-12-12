@@ -20,26 +20,11 @@
 }
 
 .navbar__notification {
-  width: 30px;
-  height: 30px;
-  border-radius: 15px;
-  color: white;
-  font-weight: 600;
-  background-color: tomato;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  box-sizing: border-box;
-  font-size: 20px;
   position: absolute;
   left: 15px;
   top: -20px;
 }
 .navbar__notification2 {
-  width: 8px;
-  height: 8px;
-  border-radius: 4px;
-  background-color: tomato;
   position: absolute;
   left: 30px;
   top: -15px;

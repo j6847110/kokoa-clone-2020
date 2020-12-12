@@ -22,6 +22,7 @@
   border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 .friends-main_channel_button {
+  color: #aeaeae;
   margin: 20px 0px;
   display: flex;
   justify-content: space-between;

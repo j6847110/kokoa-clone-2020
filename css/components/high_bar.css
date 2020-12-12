@@ -5,3 +5,8 @@
   position: fixed;
   top: 0;
 }
+.high_bar_unfixed {
+  width: 100%;
+  height: 105px;
+  box-sizing: border-box;
+}

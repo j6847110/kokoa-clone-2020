@@ -42,7 +42,6 @@
   font-size: 18px;
   color: #aeaeae;
 }
-.user_component_column span,
-.user_component_column i {
+.user_component_column:nth-child(2) {
   color: #aeaeae;
 }
