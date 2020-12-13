@@ -1,0 +1,33 @@
+#caution {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  border: 2px solid tomato;
+  border-radius: 10px;
+
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+  color: tomato;
+}
+#more_message_icon {
+  color: black;
+}
+.more_icons {
+  margin: 20px 10px;
+}
+.more_suggestion {
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 20px 10px;
+}
+.invisible_icon {
+  color: white;
+}
+#suggestions_title {
+  font-size: 20px;
+  margin: 25px 0px;
+  font-weight: bold;
+}
+.light-weight span {
+  color: #888888;
+}

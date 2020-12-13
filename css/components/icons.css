@@ -1,0 +1,17 @@
+.icons_header_column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 20%;
+  font-size: 20px;
+}
+.icons_header_column i {
+  font-size: 1.5em;
+}
+.icons_header {
+  display: flex;
+  justify-content: space-between;
+  height: 120px;
+  margin-bottom: 10px;
+}
