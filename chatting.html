@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>chatting - KokoaTalk</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="body_chatting">
+    <!--bar_settings-->
+    <div class="high_bar_short">
+      <!--statusbar-->
+      <div class="status-bar body_chatting">
+        <div class="status-bar__column">
+          <span>No Service</span>
+          <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+          <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+          <span>50%</span>
+          <i class="fas fa-battery-half"></i>
+          <i class="fas fa-bolt"></i>
+        </div>
+      </div>
+      <!--screenheader-->
+      <header class="header_short_chatting body_chatting">
+        <span class="header_short_chatting_column">
+          <a href="chats.html"><i class="fas fa-chevron-left"></i></a>
+        </span>
+        <span class="header_short_chatting_column">
+          <span>KokoaTalk</span>
+        </span>
+        <span class="header_short_chatting_column">
+          <i class="fas fa-search"></i>
+          <i class="fas fa-bars"></i>
+        </span>
+      </header>
+    </div>
+
+    <main class="main_screen_short main_chatting">
+      <div id="chatting_timetable">Tuesday, June 30, 2020</div>
+
+      <div class="message_receive message_margin">
+        <!--icon-->
+        <div class="message_receive_column">
+          <img
+            class="message_receive_icon"
+            src="https://i.pinimg.com/474x/34/c2/f9/34c2f984350ed23d1efa7094d7923c5a.jpg"
+          />
+        </div>
+        <!--name&message-->
+        <div class="message_receive_column">
+          <div class="message_receive_name sub_font">KokoaTalk</div>
+          <div class="message_receive_content content_font">Hi</div>
+          <div class="message_receive_time sub_font">21:27</div>
+        </div>
+      </div>
+
+      <div class="message_send message_margin">
+        <div class="message_send_content content_font">What's up?</div>
+        <div class="message_send_time sub_font">21:27</div>
+      </div>
+
+      <div class="message_send message_margin">
+        <div class="message_send_content content_font">What's up?</div>
+        <div class="message_send_time sub_font">21:27</div>
+      </div>
+      <div class="message_send message_margin">
+        <div class="message_send_content content_font">What's up?</div>
+        <div class="message_send_time sub_font">21:27</div>
+      </div>
+      <div class="message_send message_margin">
+        <div class="message_send_content content_font">What's up?</div>
+        <div class="message_send_time sub_font">21:27</div>
+      </div>
+    </main>
+    <form class="chatting_input">
+      <i class="far fa-plus-square chat_plus"></i>
+
+      <div class="chatting_input_column">
+        <input
+          class="chatting_input_box"
+          type="text"
+          placeholder="write a message..."
+        />
+        <div id="chatting_input_icons">
+          <i class="far fa-smile"></i>
+          <button>
+            <i class="fas fa-arrow-up"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+    <div id="no_mobile">
+      <span>Your screen is too big ㅠㅠ</span>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

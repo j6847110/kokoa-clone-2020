@@ -10,12 +10,15 @@
 @import "components/user_component.css";
 @import "components/badge.css";
 @import "components/icons.css";
+@import "components/no-mobile.css";
 /*screen*/
 @import "screen/login.css";
 @import "screen/friends.css";
 @import "screen/chats.css";
 @import "screen/find.css";
 @import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/chatting.css";
 
 body {
   font-family: "Open Sans", sans-serif;
@@ -24,7 +27,12 @@ body {
 .main_screen {
   margin-top: var(--header_space);
   padding: 0 var(--horizontal_space);
+  z-index: 0;
 }
 .main_screen_unfixed {
+  padding: 0 var(--horizontal_space);
+}
+.main_screen_short {
+  margin-top: 90px;
   padding: 0 var(--horizontal_space);
 }

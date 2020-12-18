@@ -19,7 +19,7 @@
 .friends-main_channel {
   margin-top: 15px;
 
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: var(--light_border);
 }
 .friends-main_channel_button {
   color: #aeaeae;
@@ -29,4 +29,29 @@
 }
 #channel_num {
   margin-right: 5px;
+}
+@keyframes hidesplashscreen {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash_screen {
+  background-color: var(--yellow);
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 120px;
+  z-index: 10;
+
+  animation: hidesplashscreen 0.5s ease-in-out forwards;
+  animation-delay: 2s;
 }

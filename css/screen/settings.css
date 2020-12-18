@@ -1,0 +1,32 @@
+#settings_top {
+  margin-bottom: 30px;
+}
+.settings_menu {
+  font-size: 20px;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.settings_menu_title span span {
+  margin: 0px 10px;
+}
+.settings_menu_title span {
+  display: flex;
+  align-items: center;
+}
+.settings_menu_sub {
+  color: #888888;
+}
+.settings_N_badge {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  border-radius: 10px;
+  color: white;
+  background-color: tomato;
+}
+/*color: #888888;*/

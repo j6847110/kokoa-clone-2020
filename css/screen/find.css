@@ -7,7 +7,7 @@
 }
 /*small title*/
 .friends_small_title {
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: var(--light_border);
   color: #858585;
   height: 50px;
   display: flex;
@@ -63,4 +63,37 @@
   width: 20px;
   height: 20px;
   border-radius: 5px;
+}
+.openchat_icon {
+  position: relative;
+}
+.openchat_icon div {
+  background-color: #57494b;
+  font-size: 15px;
+  border-radius: 9px;
+  padding: 5px 7px;
+  box-sizing: border-box;
+  color: white;
+  position: absolute;
+  right: 8px;
+  top: 70px;
+  opacity: 0.7;
+}
+@keyframes heartbeat_animation {
+  0% {
+    color: white;
+    transform: none;
+  }
+  50% {
+    color: tomato;
+    transform: scale(1.2);
+  }
+  100% {
+    color: white;
+    transform: none;
+  }
+}
+.openchat_icon:hover .fa-heart {
+  will-change: transform;
+  animation: heartbeat_animation 1s linear infinite;
 }

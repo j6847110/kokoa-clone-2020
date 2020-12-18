@@ -5,9 +5,7 @@
   align-items: center;
   height: 40px;
   width: 100%;
-
   padding: 40px var(--horizontal_space);
-
   box-sizing: border-box;
 }
 .screen-header_title {
@@ -17,4 +15,26 @@
 
 .screen-header_icons i {
   margin-left: 20px;
+}
+@keyframes rotate_cog {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+.screen-header_icons .fa-cog:hover {
+  animation: rotate_cog 3s linear infinite;
+}
+
+.header_short {
+  background-color: white;
+  padding: 10px var(--horizontal_space);
+  display: flex;
+  justify-content: space-between;
+
+  font-size: 25px;
+  font-weight: 600;
 }

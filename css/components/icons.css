@@ -9,6 +9,9 @@
 .icons_header_column i {
   font-size: 1.5em;
 }
+.icons_header_column span {
+  text-align: center;
+}
 .icons_header {
   display: flex;
   justify-content: space-between;
